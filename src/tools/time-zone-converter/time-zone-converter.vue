@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { nextTick } from 'vue';
-import { TIMEZONES, convertToTimezone, isValidISO } from './time.service';
+import { TIMEZONES, convertToTimezone, isValidISO } from './time-zone-converter.service';
 import { useValidation } from '@/composable/validation';
 
 const israelTime = ref('');

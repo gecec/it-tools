@@ -1,7 +1,7 @@
 import { tool as base64FileConverter } from './base64-file-converter';
 import { tool as base64StringConverter } from './base64-string-converter';
 import { tool as basicAuthGenerator } from './basic-auth-generator';
-import { tool as time } from './time';
+import { tool as timeZoneConverter } from './time-zone-converter';
 import { tool as emailNormalizer } from './email-normalizer';
 
 import { tool as asciiTextDrawer } from './ascii-text-drawer';
@@ -109,7 +109,7 @@ export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Converter',
     components: [
-      time,
+      timeZoneConverter,
       dateTimeConverter,
       baseConverter,
       romanNumeralConverter,

@@ -1,5 +1,5 @@
 import { expect, describe, it } from 'vitest';
-import { convertToTimezone, isValidISO } from './time.service';
+import { convertToTimezone, isValidISO } from './time-zone-converter.service';
 
 describe('isValidISO', () => {
   it('returns true for valid ISO strings', () => {

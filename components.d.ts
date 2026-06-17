@@ -181,6 +181,7 @@ declare module '@vue/runtime-core' {
     TextToNatoAlphabet: typeof import('./src/tools/text-to-nato-alphabet/text-to-nato-alphabet.vue')['default']
     TextToUnicode: typeof import('./src/tools/text-to-unicode/text-to-unicode.vue')['default']
     Time: typeof import('./src/tools/time/time.vue')['default']
+    TimeZoneConverter: typeof import('./src/tools/time-zone-converter/time-zone-converter.vue')['default']
     TokenDisplay: typeof import('./src/tools/otp-code-generator-and-validator/token-display.vue')['default']
     'TokenGenerator.tool': typeof import('./src/tools/token-generator/token-generator.tool.vue')['default']
     TomlToJson: typeof import('./src/tools/toml-to-json/toml-to-json.vue')['default']
